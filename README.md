@@ -11,7 +11,7 @@ When the user arrives to the page, they are given 5 preliminary buttons to acces
 ![Trivie Quiz](assets/images/GifImage.png)
 
 
-This Game was created with:
+This Page was created with:
 ```
 HTML
 CSS
