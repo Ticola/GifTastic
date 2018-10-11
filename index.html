@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hall of Fame</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" style="background: transparent;">
+        <h1 class="text-center" style="font-family: 'Notable', sans-serif;font-size: 100px;color:rgb(250, 154, 125);">Hall
+            of Fame</h1>
+        <hr class="style1">
+        <br>
+        <div id="athlete-buttons"> </div>
+        <br>
+        <br>
+        <div class="container" id="btn" style="background: transparent;">
+            <form id="athlete-form">
+                <label id="add" for="athlete-input">Please enter your favortie Music Artist</label>
+                <input type="text" class="form-control" id="athlete-input">
+            </form>
+            <br>
+            <button onclick="submitButtonClicked()" type="button" id="add-athlete" class="btn btn-warning">Submit</button>
+            <br>
+            <br>
+            <div id="athletes"> </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

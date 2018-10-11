@@ -1,0 +1,48 @@
+
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxj6G7ah2Tc_W0pbe9erFUBLHzVayIqXlTEg1vJ4Ow8WsoF7X") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ratings {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: rgb(207, 45, 45);
+    color: blue;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: red;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
+}
+
+hr.style1 {
+	border-top: 8px double #e02121;
+}
